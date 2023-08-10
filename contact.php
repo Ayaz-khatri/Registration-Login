@@ -21,18 +21,18 @@
 
             </div>
             <div class="col-md-10 mx-auto col-lg-6">
-                <form class="p-4 p-md-5 border rounded-3 bg-white box">
+                <form class="p-4 p-md-5 border rounded-3 bg-white box" method="POST" action="#">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingName" placeholder="Name">
+                        <input type="text" class="form-control" id="floatingName" placeholder="Name" name="username">
                         <label for="floatingPassword">Your Name</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
                         <label for="floatingInput">Email Address</label>
                     </div>
                     <div class="form-group mb-3">
                         <label class="ms-2">Your Message</label>
-                        <textarea id="textarea" rows="3" class="form-control"></textarea>
+                        <textarea id="textarea" rows="3" class="form-control" name="message"></textarea>
                     </div>
 
                     <input type="submit" class="w-100 btn btn-lg btn-danger" value="Submit">

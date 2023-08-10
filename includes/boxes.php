@@ -16,7 +16,6 @@
                         <p>
                             Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Eius, eveniet?
                         </p>
-
                     </div>
                     <button class="btn btn-danger my-3">Read more...</button>
                 </div>
@@ -69,4 +68,5 @@
 
         </div>
     </div>
+
 </div>
